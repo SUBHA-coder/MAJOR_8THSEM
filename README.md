@@ -108,7 +108,6 @@ MAJOR_8THSEM/
 
 ## 📉 Scaling Visualization
 
-![Scaling Analysis](scaling_analysis.png)
 
 ![Final Scaling Plot](final_scaling_plot.png)
 
