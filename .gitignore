@@ -1,0 +1,59 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+
+# ========================
+# Virtual Environment
+# ========================
+venv/
+.env/
+.env.*
+
+# ========================
+# HuggingFace / Training
+# ========================
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+
+# LoRA adapters (your folders)
+*_final_lora/
+
+# Model folders (optional: ignore base models if large)
+Qwen1.5-0.5B/
+Qwen1.5-1.8B/
+Qwen1.5-4B/
+
+# ========================
+# Dataset (processed)
+# ========================
+qwen_tokenized/
+*.arrow
+dataset_info.json
+state.json
+
+# ========================
+# Logs & Tracking
+# ========================
+runs/
+wandb/
+mlruns/
+
+# ========================
+# System Files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE
+# ========================
+.vscode/
+.idea/
